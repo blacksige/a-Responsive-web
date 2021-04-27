@@ -1,0 +1,357 @@
+/* @media screen and (max-width:479px){ */
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    body{
+        background-image: url("../切图/mobile/背景.png");
+        background-repeat: no-repeat;
+    }i
+    aside{
+        display: none;
+    }
+    header{
+        margin-top: 20px;
+        width: 360px;
+        height: 260px;
+        overflow: hidden;
+    }
+    header > img{
+        content: url("../切图/mobile/header.png");
+        width: 98%;
+        height: 380px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+    .container{ 
+       display: none ;
+    }
+    .container-m{
+        display: block;
+        margin: 0 auto;
+        width: 360px;
+        height: 1200px;
+    }
+    main{
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: 360px;
+
+    }
+    main > .kc{
+        padding: 2px;
+        width: 360px;
+    }
+    .kc .title1{
+        text-align: center;
+        padding: 2px;
+        margin-bottom: 20px; 
+    }
+    
+    /* 莫凡课程 */
+    .artcle{
+        width: 98%;
+        height: 700px;
+        margin-bottom: 40px;
+        background-color: rgba(255,255,255, 0.1);
+        border-radius: 30px;
+        border: 2px solid#2d3746;
+        /* #2d3746 */
+    }
+    .artcle-top{
+        background-image: url("../切图/mobile/形状结合\(2\).png");
+        height: 600px;
+        background-repeat: no-repeat;
+    }
+    .img-one1{
+        position: relative;
+        left: 10px;
+        bottom: 30px;
+        z-index: 1;
+    }
+   .content-c1{
+        width: 100%;
+        height: 220px;
+        background-repeat: no-repeat;
+        background-position: 0px 20px;
+        background-size: contain;
+        position: relative;
+        bottom: 80px;
+        text-align: center;
+    }
+    .content-c1 img{
+        position: relative;
+        top: 78px;
+        right: 8px;
+    }
+    .mf-topimg{
+        background-image: url("../切图/mobile/course1.png");
+    }
+    .textArea{
+        margin: 0 auto;
+        width: 300px;
+        height: 130px;
+        overflow: auto;
+        position: relative;
+        bottom: 80px;
+    }
+    .textArea > a{
+        line-height: 20px;
+        letter-spacing:2px;
+        color: #D6D7F6;
+        font-size: 12px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .artcle-text{
+        height: 48px;
+        padding:20px;
+        background-image: url("../切图/pc/decoration.png");
+        background-repeat: no-repeat;
+        position: relative;
+        bottom: 88px;
+    }
+    .artcle-text > .b{
+        float: left;
+        font-size: 36px;
+        font-weight: bold;
+        color:#D6D7F6;
+        position: relative;
+        bottom: 4px;
+    }
+    .artcle-text >  .text{
+        letter-spacing:3px;
+        width: 95%;
+        float: right;
+        white-space: normal;
+        height: 40px;
+        color:#D6D7F6;
+        font-size: 16px;
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .btn-m{
+        float: none;
+        width: 180px;
+        height: 38px;
+        text-align: center;
+        background: -moz-linear-gradient(top, #ffffff 0%, #EE8F4A 100%);
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#EE8F4A));
+        background: -webkit-linear-gradient(top, #ffffff 0%,#EE8F4A 100%);
+        background: -o-linear-gradient(top, #ffffff 0%,#EE8F4A 100%);
+        background: -ms-linear-gradient(top, #ffffff 0%,#EE8F4A 100%);
+        background: linear-gradient(to bottom, #ffffff 0%,#EE8F4A 100%);
+        border-radius: 18px;
+        position: relative;
+        left: 85px;
+        bottom: 88px;
+    }
+    .btn-m:hover{
+        background-color:#6A64C2;
+    }
+    .btn-m > a{
+        color: #14142C;
+        line-height: 38px;
+        font-weight: bold;
+        font-size: 16px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        
+    }
+    .btn-m > a:link{
+        text-decoration: none;
+    }
+    .artcle-bottom{
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+        bottom: 94px;
+        
+    }
+    .bottom-title{
+        background-image: url("../切图/mobile/方块.png");
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: center;
+        text-align: center;
+        color: #afb5d3;
+        font-size: 14px;
+        width: 360px;
+        /* border: #6A64C2 2px solid; */
+    }
+    .bottom-title> p{
+        width: 180px;
+        position: relative;
+        left: 90px;
+        
+    }
+    .bottom-left{
+        float: left;
+        width: 49%;
+        height: 120px;
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: center;
+    }
+    .mf-leftimg{
+        background-image: url("../切图/mobile/video1.png");
+    }
+    .bottom-right{
+        float: right;
+        width: 49%;
+        height: 120px;
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: center;
+    
+    }
+    .mf-rightimg{
+        background-image: url("../切图/mobile/video2.png");
+    }
+    .artcle-bottom > div > a{
+        position: relative;
+        top: 120px;
+        left: 6px;
+        color: #afb5d3;
+        letter-spacing:2px;
+        font-size: 12px;
+    }
+    .bottom-play img{
+        position: absolute;
+        left: 64px;
+        bottom: 164px;
+    } 
+    /* kevin */
+    .img-two2{
+        position: relative;
+        left: 10px;
+        bottom: 30px;
+        z-index: 100;
+    }
+    .kev-topimg{
+        background-image: url("../切图/mobile/course2.png");
+    }
+    .kev-leftimg{
+        background-image: url("../切图/mobile/video3.png");
+    }
+    .kev-rightimg{
+        background-image: url("../切图/mobile/video4.png");
+    }
+    
+    /* 陈海清-chq */
+    .img-three3{
+        position: relative;
+        left: 10px;
+        bottom: 30px;
+        z-index: 100;
+    }
+    .chq-topimg{
+        background-image: url("../切图/mobile/course3.png");
+    }
+    .chq-leftimg{
+        background-image: url("../切图/mobile/video5.png");
+    }
+    .chq-rightimg{
+        background-image: url("../切图/mobile/video6.png");
+    }
+    
+    /* rights */
+    main > .rights{
+        padding: 5px;
+        width: 360px;
+    }
+    .rights .title2{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .right-content{
+        width: 100%;
+        background-image: url("../切图/mobile/rights.png");
+        height: 515px;
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+    /* 福利放送 */
+    main > .weal{
+        padding: 10px;
+        width: 360px;
+        margin: 0 auto;
+    }
+    .weal .title3{
+        margin: 0 auto;
+        padding: 0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .weal-kc{
+        text-align: center;
+    }
+    .wechat{
+        padding: 25px;
+        text-align: center;
+        background-image: url("../切图/mobile/底部二维码栏.png");
+        background-repeat: no-repeat;
+    }
+    .wechat-text{
+        text-align: center;
+        margin: 10px;
+        
+    }
+    .wechat-text > .p1{
+        font-size: 20px;
+        font-weight: bold;
+        color: #F1D7C1;
+    }
+    .wechat-text > .p2{
+        font-size: 14px;
+        letter-spacing:3px;
+        font-weight: bold;
+        color: #F1D7C1;
+    }
+
+    /* 微信添加按扭 */
+    .addbtn{
+        width: 350px;
+        height: 40px;
+        background: -moz-linear-gradient(top, #ffffff 0%, #EE8F4A 100%);
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#EE8F4A));
+        background: -webkit-linear-gradient(top, #ffffff 0%,#EE8F4A 100%);
+        background: -o-linear-gradient(top, #ffffff 0%,#EE8F4A 100%);
+        background: -ms-linear-gradient(top, #ffffff 0%,#EE8F4A 100%);
+        background: linear-gradient(to bottom, #ffffff 0%,#EE8F4A 100%);
+        position: fixed;
+        top:98%;
+        left: 50%;       
+        transform: translate(-50%,-100%);
+        border-radius: 20px;
+        text-align: center;
+        line-height: 40px;
+        font-weight: 600;
+        font-size: 14px;  
+    }
+
+    /* 弹窗 */
+    .addwechat{
+        width: 200px;
+        height:360px;
+        position:fixed;
+        margin:auto;
+        left:0;
+        right:0;
+        top:0;
+        bottom:0;
+        z-index: 100;
+        background-image:  url("../切图/pc/fixedqr@2x.png");
+        background-size: cover;
+        display: none;
+    }
+    .videos{
+        display: none;
+    }
+/* } */
